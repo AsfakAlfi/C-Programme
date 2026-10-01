@@ -1,6 +1,17 @@
 #include <stdio.h>
 
-       int main() {
-           printf("Hello World!\n");
-           return 0;
-       }
+int main()
+{
+    int x, y;
+
+    printf("Enter two numbers: ");
+    scanf("%d %d", &x, &y);
+
+    printf("Sum: %d\n", x + y);
+    printf("Difference: %d\n", x - y);
+    printf("Product: %d\n", x * y);
+    printf("Quotient: %d\n", x / y);
+    printf("Remainder: %d\n", x % y);
+
+    return 0;
+}
